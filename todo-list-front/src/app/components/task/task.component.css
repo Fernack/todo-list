@@ -1,0 +1,33 @@
+:host {
+  display: flex;
+}
+
+.text {
+  font-size: 40px;
+  margin-left: 10px;
+  flex: 1;
+}
+
+.spanImg {
+  flex: 1;
+}
+
+.spanImg img {
+  width: 100%;
+  max-width: 200px;
+  max-height: 65px;
+}
+
+.fa-stack {
+  margin-right: 20px;
+  cursor: pointer;
+  float: right;
+}
+
+.fa-stack .fa-circle.incomplete {
+  color: red;
+}
+
+.fa-stack .fa-circle.complete {
+  color: green;
+}

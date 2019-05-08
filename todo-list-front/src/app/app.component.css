@@ -1,0 +1,65 @@
+h1 {
+  text-align: center;
+  font-size: 5vw;
+  color: white;
+  margin: 10px 0 20px 0;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  border-radius: 10px;
+}
+
+.container-details {
+  background-color: grey;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  border-radius: 10px;
+}
+
+form {
+  padding: 10px;
+}
+
+form .form-group {
+  display: flex;
+}
+
+form .form-group .form-control {
+  height: 42px;
+  flex: 1;
+}
+
+form .form-group .fa-plus-circle {
+  color: green;
+  float: right;
+  margin: 0 0 10px 0;
+  cursor: pointer;
+}
+
+form .form-group .fa-stack {
+  font-size: 24px;
+  cursor: pointer;
+  color: #c113c1;
+}
+
+form input, form select {
+  outline: none;
+  font-size: 30px;
+}
+
+form .form-group input[type=text]::placeholder {
+  color:#666;
+}
+
+
+form .form-group-filter {
+  display: flex;
+}
+
+form .form-group-filter .form-control {
+  margin-right: 10px;
+  min-width: 0;
+  flex: 1;
+  height: 42px;
+}
+
+.ng-dirty.ng-invalid {
+  border-color: red;
+}

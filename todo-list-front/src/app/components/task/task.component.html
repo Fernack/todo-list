@@ -1,0 +1,11 @@
+<span class="text">{{task.id}} - {{task.description}} </span>
+
+<span class="spanImg">
+  <img *ngIf="task.image" [src]="'data:image;base64,'+ task.image | safeHtml">
+</span>
+
+<span class="fa-stack fa-2x" (click)="onCompleteTask(task)">
+  <i class="fas fa-circle fa-stack-2x" [ngClass]="{'complete': task.state, 'incomplete': !task.state}"></i>
+  <i *ngIf="!task.state" class="far fa-trash-alt fa-stack-1x fa-inverse"></i>
+  <i *ngIf="task.state" class="fas fa-check fa-stack-1x fa-inverse"></i>
+</span>
