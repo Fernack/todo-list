@@ -29,3 +29,5 @@ manejo de excepciones
 Unit test completo con JUNIT
 Implementar un SPA en Angular para poder listar, buscar, dar de alta y cambiar de estado
 Utilizar DB en memoria hsqldb
+
+![](https://github.com/Fernack/mavha/blob/master/demo.gif)
