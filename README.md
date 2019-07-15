@@ -1,7 +1,4 @@
-# mavha
-
-Test Técnico 
-Angular + JAVA Sping boot
+# Angular + JAVA Spring boot
  
 Problema
 Implementar una solución que permita guardar y listar una/s  Entidad/es TODOs con las siguientes características:
