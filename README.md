@@ -1,30 +1,34 @@
 # Angular + JAVA Spring boot
  
-Problema
-Implementar una solución que permita guardar y listar una/s  Entidad/es TODOs con las siguientes características:
-TODO (To do, listado de tareas por hacer)
-A ) ID
-B) DESCRIPCION (EL TODO a hacer)
-C) Estado
-D) Foto/Imagen adjunta a la DESCRIPCION
+### Implement a solution that allows to store and list a TODO Entity/entities with the following characteristics: 
 
-A implementar:
-Listado de TODOs: METHOD GET (Respetar convenciones en la url)
-Listado filtrado por A B y C: METHOD GET (Utilizar query parameters y respetar convenciones)
-Alta del TODO: METHOD POST (Respetar convenciones en la url). Que reciba la foto/imagen también.
-Cambio de estado, de pendiente a resuelta.
+```
+TODO (To do, list of tasks to do). 
+A) ID 
+B) DESCRIPTION (THE TODO to be done) 
+C) Status 
+D) Picture/Image attached to the DESCRIPTION
+```
 
+To be implemented: 
 
-Consideraciones:
-Utilizar maven 
-Definir un pom y hacer uso de Dependency Management de maven 
-Utilizar Spring Framework
-Usar Spring boot
-Usar annotations 
-Las Entidades denotadas con el estándar JPA  (paquete  javax.persistence.*)
-manejo de excepciones
-Unit test completo con JUNIT
-Implementar un SPA en Angular para poder listar, buscar, dar de alta y cambiar de estado
-Utilizar DB en memoria hsqldb
+```
+List of TODOs: METHOD GET (Respect conventions in the url).
+List filtered by A B and C: METHOD GET (Use query parameters and respect conventions).
+Registration of the TODO: METHOD POST (Respect conventions in the url). Receive the photo/image as well. Change of status, from pending to resolved.
+```
+
+Considerations: 
+- Use maven.
+- Define a pom and make use of maven Dependency Management. 
+- Use Spring Framework. 
+- Use Spring boot. 
+- Use annotations. 
+- Entities denoted with the JPA standard (javax.persistence.* package). 
+- Exception handling. 
+- Unit test complete with JUNIT. 
+- Using hsqldb in-memory DB.
+
+Implement a SPA in Angular to be able to list, search, register and change state. 
 
 ![](https://github.com/Fernack/mavha/blob/master/demo.gif)
